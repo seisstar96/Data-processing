@@ -1,0 +1,12 @@
+1. cut -c1,5 $file.txt > ..  cut 第1-5个字符
+2. cut -d" " -f2  xx.txt 以空格为分割符，提取第二列
+3. event 代表xxx.dat 每一行 ，time代表从1-n行的某一列
+           for event in $(cat xxx.dat | awk '{print NR}')
+               do
+                    time=`cat xxx.dat | awk 'NR=="'"$event"'"{print $3}'`
+                    grep $time event.sel  >> event4.dat
+                done
+4. sed s/[[:space:]]//g  去掉每列之间的空格
+5. du --max-depth=1 -h
+6. for i in {1..9}
+   for i in $(ls -l *)
