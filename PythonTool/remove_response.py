@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
+
+""" Remove response
+Ori: seisman SAC
+Update: Weifan Lu (luweifan001@pku.edu.cn)
+"""
+
+
 import os
 import sys
 import glob
