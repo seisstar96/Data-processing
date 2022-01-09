@@ -1,6 +1,6 @@
 # Seismic-Data-Preparation 
 
-Original: Yijian Zhou (https://github.com/YijianZhou/Seismic-Data-Preparation)
+Original: Yijian Zhou (https://github.com/YijianZhou/Seismic-Data-Preparation) <br>
 Updated some script: Weifan Lu (luweifan001@pku.edu.cn)
 
 Codes for preparing seismic data <br>
